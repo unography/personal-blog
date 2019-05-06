@@ -47,7 +47,7 @@ Invented by Ken Perlin, It's a way to get points in a random fashion, but, which
 
 The points in both the cases are random, yet in the second image they have a visual aesthetic to it.
 
-In p5.js, simply calling `noise()` instead of `random()` gives this type of pattern, which is what we used to get the semi-random destination points. 
+In p5.js, simply calling `noise()` instead of `random()` gives this type of pattern, which is what we used to get the semi-random destination points.
 
 ![Random Walk Portraits](vangoghGenerative.gif)
 
@@ -55,3 +55,7 @@ In case you're bored with just seeing Van Gogh - the code is deployed live here,
 
 ~ https://unographymag.com/void
 
+*A few resources to check out!:*
+
+1. [Daniel Shiffman on Random Walk](https://www.youtube.com/watch?v=l__fEY1xanY&) 
+2. [Daniel Shiffman's introduction to Perlin Noise](https://www.youtube.com/watch?v=Qf4dIN99e2w)
