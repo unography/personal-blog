@@ -1,6 +1,8 @@
 ---
 title: Recreating paintings with Generative Art, using p5.js
 date: "2018-04-07"
+description: Creating generative portraits in p5.js, using random walks and perlin noise
+
 ---
 
 ![Random Walk Van Gogh](vg_1.png)![Random Walk Van Gogh](vg_2.png)
