@@ -1,11 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
+    title: `~ writings on ai, art, and making art with ai`,
+    author: `Dhruv Karan`,
     description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `http://dhruvkaran.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `unography`,
+      instagram: `unography`,
+      github: `unography`,
+      linkedin: `karandhruv`
     },
   },
   plugins: [
@@ -57,13 +60,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Dhruv Karan`,
+        short_name: `Dhruv`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `#c47a53`,
+        theme_color: `#2d5b6b`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/favicon_transparent.png`,
       },
     },
     `gatsby-plugin-offline`,

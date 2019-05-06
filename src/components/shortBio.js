@@ -1,5 +1,5 @@
 /**
- * Bio component that queries for data
+ * Short Bio component that queries for data
  * with Gatsby's StaticQuery component
  *
  * See: https://www.gatsbyjs.org/docs/static-query/
@@ -11,10 +11,10 @@ import Image from "gatsby-image";
 
 import { rhythm } from "../utils/typography";
 
-function Bio() {
+function ShortBio() {
   return (
     <StaticQuery
-      query={bioQuery}
+      query={shortBioQuery}
       render={data => {
         const { author, social } = data.site.siteMetadata
         return (
@@ -38,13 +38,7 @@ function Bio() {
               }}
             />
             <p>
-              personal blog of <strong>{author}</strong>.<br></br>
-              data scientist. photographer. artist (&iquest;?)<br></br>
-              i dabble in ai, art, and making art with ai.
-              <br></br>
-              <br></br>
-              creator/curator at <a href="https://unographymag.com/">unographymag</a>.
-              <br></br>
+              ~ by <strong>{author}</strong>.<br></br>
               <br></br> 
               {` `}
               <a href={`https://instagram.com/${social.instagram}`}>
@@ -70,8 +64,8 @@ function Bio() {
   )
 }
 
-const bioQuery = graphql`
-  query BioQuery {
+const shortBioQuery = graphql`
+  query ShortBioQuery {
     avatar: file(absolutePath: { regex: "/profile-pic.jpg/" }) {
       childImageSharp {
         fixed(width: 50, height: 50) {
@@ -93,4 +87,4 @@ const bioQuery = graphql`
   }
 `
 
-export default Bio
+export default ShortBio

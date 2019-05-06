@@ -26,13 +26,13 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {title}
+            {/* {title} */}
           </Link>
         </h1>
       )
     } else {
       header = (
-        <h3
+        <h4
           style={{
             fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
@@ -46,9 +46,9 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {title}
+            &lt;home&gt;
           </Link>
-        </h3>
+        </h4>
       )
     }
     return (
@@ -63,9 +63,7 @@ class Layout extends React.Component {
         <header>{header}</header>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          {/* ~ 42 ~ */}
         </footer>
       </div>
     )
