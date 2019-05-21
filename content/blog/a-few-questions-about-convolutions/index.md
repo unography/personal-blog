@@ -1,4 +1,9 @@
-# A few frequently asked (thought about) questions about Convolutions in Neural Networks
+---
+title: A few frequently asked (thought about) questions about Convolutions
+date: "2019-05-21"
+description: What are convolutions, why we use 3x3 and not 2x2, 7x7, etc.
+
+---
 
 ## What are convolutions?
 
