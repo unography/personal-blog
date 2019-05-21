@@ -1,6 +1,6 @@
 ---
 title: Recreating paintings with Generative Art, using p5.js
-date: "2018-04-07"
+date: "2019-04-07"
 description: Creating generative portraits in p5.js, using random walks and perlin noise
 
 ---
