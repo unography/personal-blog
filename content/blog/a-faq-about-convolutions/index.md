@@ -37,7 +37,7 @@ We now come to ***convolutions***.
 
 *fig. 1: an example of 2D convolution of a 3x3x1 kernel on 5x5x1 data*
 
-In convolution, we take a kernel of dimenstion (width, height, channel) e.g. 3x3x1 and slide it across our data, performing elementwise multiplication over the part of the input it is currently on, and summing up the results into get the output element.
+In convolution, we take a kernel of dimension (width, height, channel) e.g. 3x3x1 and slide it across our data, performing elementwise multiplication over the part of the input it is currently on, and summing up the results into get the output element.
 
 In the image above, a 3x3x1 kernel is convolving over 5x5x1 input data. This is also known as 2D Convolution 
 
@@ -69,11 +69,11 @@ The next odd shaped kernel is 3x3 (we discussed why we don't use even shaped one
 
 3x3 kernel behaves perfectly as a feature extractor. It has a central element and a symmetry around it. It covers enough area to have local knowledge useful for extracting features, so it works for us.
 
-5x5, 7x7 and others also have symmetry around pixels, but while convolving they have more parameters than when convolving with a 3x3 kernel, so the larger we go from 3x3, the less computationally effecient it becomes. The local area it covers is also larger than we want it to be, when extracting features. 3x3 gives us a good coverage of pixels.
+5x5, 7x7 and others also have symmetry around pixels, but while convolving they have more parameters than when convolving with a 3x3 kernel, so the larger we go from 3x3, the less computationally efficient it becomes. The local area it covers is also larger than we want it to be, when extracting features. 3x3 gives us a good coverage of pixels.
 
 Another advantage with using 3x3 kernels is we can get the same affect of any odd shaped kernel with a 3x3 kernel. For example, we can use two 3x3 kernels to get the same effect as using a 5x5 kernel (with no padding and stride of 1).
 
-By affect, we mean receptive field, or the "view" we mentioned earlier. Using 2 3x3 kernels gives us the same global receptive field as using 1 5x5 kernel, and still using 3x3 is more computationally effecient in this case!
+By affect, we mean receptive field, or the "view" we mentioned earlier. Using 2 3x3 kernels gives us the same global receptive field as using 1 5x5 kernel, and still using 3x3 is more computationally efficient in this case!
 
 Because of all these advantages, GPU's like those by NVIDIA have also optimized convolutions on 3x3 sized kernels. Many papers like the Resnet paper has 7x7 kernel in it's code, but while optimizing the performance of such networks, the 7x7 kernels get converted into 3 3x3 kernels.
 
