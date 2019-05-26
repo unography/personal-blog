@@ -90,7 +90,8 @@ const bioQuery = graphql`
           twitter,
           instagram,
           github,
-          linkedin
+          linkedin,
+          glitch
         }
       }
     }

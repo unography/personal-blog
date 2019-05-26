@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `~ writings on ai, art, and making art with ai`,
     author: `Dhruv Karan`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `writings on ai, art, and making art with ai`,
     siteUrl: `http://dhruvkaran.com/`,
     social: {
       twitter: `unography`,
