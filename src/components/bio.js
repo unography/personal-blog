@@ -62,6 +62,10 @@ function Bio() {
               <a href={`https://www.linkedin.com/in/${social.linkedin}`}>
                 linkedin
               </a>
+              {` `}
+              <a href={`https://glitch.com/@${social.glitch}`}>
+                glitch
+              </a>
             </p>
           </div>
         )

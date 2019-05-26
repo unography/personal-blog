@@ -8,7 +8,8 @@ module.exports = {
       twitter: `unography`,
       instagram: `unography`,
       github: `unography`,
-      linkedin: `karandhruv`
+      linkedin: `karandhruv`,
+      glitch: `unography`
     },
   },
   plugins: [
