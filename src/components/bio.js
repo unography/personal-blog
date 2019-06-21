@@ -38,7 +38,7 @@ function Bio() {
               }}
             />
             <p>
-              personal blog of <strong>{author}</strong>.<br></br>
+              <strong>{author}</strong>.<br></br>
               data scientist. photographer. artist (&iquest;?)<br></br>
               i dabble in ai, art, and making art with ai.
               <br></br>
