@@ -1,7 +1,7 @@
 ---
 title: Training a ResNet-like network from scratch
 date: "2019-06-22"
-description: Training a modified ResNet network on the TinyImageNet dataset, from scratch.
+description: Training a modified ResNet network on the TinyImageNet dataset.
 
 ---
 
