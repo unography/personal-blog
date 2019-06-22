@@ -5,8 +5,6 @@ description: Training a modified ResNet network on the TinyImageNet dataset.
 
 ---
 
-## Training a ResNet-like network from scratch
-
 This was done mainly as a learning exercise - to learn how to train neural networks from scratch, and also the patience required to do so.
 
 The dataset used is [Tiny ImageNet](https://tiny-imagenet.herokuapp.com/) - a modified version of the original ImageNet dataset. It has 200 classes, each class having 500 training images, 50 validation and 50 test images. Since the labels for the test set is not available publically, the validation set is used as the test set here.
