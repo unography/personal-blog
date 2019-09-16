@@ -5,6 +5,7 @@
   font-size: 1.3em;
   font-weight: normal;
   max-width: 60em;
+  min-width: 300px;
   line-height: 2em;
 }
 
@@ -48,13 +49,29 @@ code.language-text {
   font-style: italic;
 }
 
-/* p {
-  margin: 1.2em 0;
-  padding-bottom: 1em;
-  font-size: 1.3em;
-  font-weight: normal;
-} */
 
 .gatsby-highlight {
   margin-left: 3em;
+}
+
+@media only screen and (max-width: 950px) {
+  .blogContent {
+    margin: 0;
+    padding: 0;
+  }
+
+  .gatsby-highlight {
+    margin-left: 0.5em;
+  }
+
+  h1.blogTitle {
+    margin-top: 0;
+
+  }
+
+  .layout {
+    padding: 0;
+  }
+
+
 }

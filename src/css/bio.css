@@ -1,9 +1,8 @@
 .bio {
-    display: flex;
+    /* display: flex; */
     margin-bottom: 2em;
-    /* margin-bottom: 4.375em; */
     max-width: 800px;
-    /* padding: 2em 13em; */
+    min-width: 300px;
 }
 
 h1.rootHeader {
@@ -26,4 +25,12 @@ p.self {
     font-size: 1.1em;
     font-style: italic;
     margin-left: 0.5em;
+}
+
+@media only screen and (max-width: 950px) {
+
+    h1.rootHeader {
+        margin-bottom: 0.5em;
+        margin-left: 0.2em;
+    }
 }
