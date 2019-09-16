@@ -1,0 +1,22 @@
+.layout {
+    padding: 2em 13em;
+    color: #292e31;
+}
+
+
+h4 {
+    font-family: 'Montserrat', 'sans-serif';
+    margin-top: 0;
+    opacity: 0.9;
+    font-size: 1.2em;
+}
+
+a {
+    color: #34699a;
+    text-decoration: none;
+    box-shadow: none;
+    transition: all .2s ease-out;
+}
+a:hover {
+    color: #113f67;
+}

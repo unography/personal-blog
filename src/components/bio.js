@@ -10,6 +10,7 @@ import { StaticQuery, graphql } from "gatsby";
 import Image from "gatsby-image";
 
 import { rhythm } from "../utils/typography";
+import '../css/bio.css'
 
 function Bio() {
   return (
@@ -18,54 +19,31 @@ function Bio() {
       render={data => {
         const { author, social } = data.site.siteMetadata
         return (
-          <div
-            style={{
-              display: `flex`,
-              marginBottom: rhythm(2.5),
-            }}
-          >
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
-              style={{
-                marginRight: rhythm(1 / 2),
-                marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
-              }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
-            />
+          <div class="bio">
             <p>
-              <strong>{author}</strong>.<br></br>
-              data scientist. photographer. artist (&iquest;?)<br></br>
-              i dabble in ai, art, and making art with ai.
-              <br></br>
-              <br></br>
-              creator/curator at <a href="https://unographymag.com/">unographymag</a>.
-              <br></br>
-              <br></br> 
-              {` `}
-              <a href={`https://instagram.com/${social.instagram}`}>
-                instagram
-              </a>
-              {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                twitter
-              </a>
-              {` `}
-              <a href={`https://github.com/${social.github}`}>
-                github
-              </a>
-              {` `}
-              <a href={`https://www.linkedin.com/in/${social.linkedin}`}>
-                linkedin
-              </a>
-              {` `}
-              <a href={`https://glitch.com/@${social.glitch}`}>
-                glitch
-              </a>
+              <p class="self">hi, i'm</p>
+              <h1 class="rootHeader">{author}</h1>
+              <p class="self">i work as a data scientist. sometimes i make art with code. </p>
+              <p class="self">i'm also a photographer and co-creator/curator of <a href="https://unographymag.com">unographymag</a> ~ a curator collective, running something akin to an art gallery on the internet.</p>
+              <div class="socialLinks">
+                {` `}
+                <a href={`https://instagram.com/${social.instagram}`}>
+                  instagram
+                </a>
+                {` `}
+                <a href={`https://twitter.com/${social.twitter}`}>
+                  twitter
+                </a>
+                {` `}
+                <a href={`https://github.com/${social.github}`}>
+                  github
+                </a>
+                {` `}
+                <a href={`https://www.linkedin.com/in/${social.linkedin}`}>
+                  linkedin
+                </a>
+              </div> 
+              
             </p>
           </div>
         )

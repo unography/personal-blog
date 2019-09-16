@@ -1,0 +1,29 @@
+.bio {
+    display: flex;
+    margin-bottom: 2em;
+    /* margin-bottom: 4.375em; */
+    max-width: 800px;
+    /* padding: 2em 13em; */
+}
+
+h1.rootHeader {
+    margin: .2em 0 .4em;
+    font-size: 4vw;
+    line-height: .9em;
+    font-weight: 900;
+    
+}
+
+p.self {
+    opacity: 0.8;
+    margin-top: 0px;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+    font-size: 1.2em;
+}
+
+.socialLinks {
+    font-size: 1.1em;
+    font-style: italic;
+    margin-left: 0.5em;
+}

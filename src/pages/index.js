@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby";
 import Bio from "../components/bio";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import { rhythm } from "../utils/typography";
+import '../css/index.css'
 
 class BlogIndex extends React.Component {
   render() {
@@ -18,22 +18,19 @@ class BlogIndex extends React.Component {
           title={siteTitle}
           keywords={[`blog`, `data science`, `ai`, `p5js`, `creative coding`, `generative art`]}
         />
-        <Bio />
+      <Bio />
+        <hr></hr>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
+            <div key={node.fields.slug} class="blogPostBlurb">
+              <h2 class="indexBlogTitle">
                 <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
                   {title}
                 </Link>
-              </h3>
+              </h2>
               <small>{node.frontmatter.date}</small>
-              <p
+              <p class="indexBlogPara"
                 dangerouslySetInnerHTML={{
                   __html: node.frontmatter.description || node.excerpt,
                 }}

@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from "react";
+import { Link } from "gatsby";
 
-import { rhythm, scale } from "../utils/typography"
+import '../css/layout.css';
 
 class Layout extends React.Component {
   render() {
@@ -11,13 +11,7 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
-          style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
-            marginTop: 0,
-          }}
-        >
+        <h1 class="rootHeader">
           <Link
             style={{
               boxShadow: `none`,
@@ -32,12 +26,7 @@ class Layout extends React.Component {
       )
     } else {
       header = (
-        <h4
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-          }}
-        >
+        <h4>
           <Link
             style={{
               boxShadow: `none`,
@@ -46,20 +35,13 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            &lt;home&gt;
+            ↺ home
           </Link>
         </h4>
       )
     }
     return (
-      <div
-        style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
-        }}
-      >
+      <div class="layout">
         <header>{header}</header>
         <main>{children}</main>
         <footer>
