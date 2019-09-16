@@ -58,6 +58,7 @@ code.language-text {
   .blogContent {
     margin: 0;
     padding: 0;
+    font-size: 1em;
   }
 
   .gatsby-highlight {
@@ -66,6 +67,7 @@ code.language-text {
 
   h1.blogTitle {
     margin-top: 0;
+    font-size: 2em;
 
   }
 
@@ -73,5 +75,8 @@ code.language-text {
     padding: 0;
   }
 
+  li {
+    margin-left: 1em;
+  }
 
 }

@@ -30,7 +30,10 @@ p.self {
 @media only screen and (max-width: 950px) {
 
     h1.rootHeader {
+        margin-top: 0px;
         margin-bottom: 0.5em;
-        margin-left: 0.2em;
+        margin-left: 0.5em;
+        font-size: 1.2em;
+        font-weight: bold;
     }
 }
