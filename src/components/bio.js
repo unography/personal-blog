@@ -23,8 +23,8 @@ function Bio() {
             <p>
               <p class="self">hi, i'm</p>
               <h1 class="rootHeader">{author}</h1>
-              <p class="self">i work as a data scientist. sometimes i make art with code. </p>
-              <p class="self">i'm also a photographer and co-creator/curator of <a href="https://unographymag.com">unographymag</a> ~ a curator collective, running something akin to an art gallery on the internet.</p>
+              <p class="self">i'm a data scientist, photographer, and a creative coder. my interests include art, ai, and making art with ai.</p>
+              <p class="self">i also co-created unography mag<a href="https://unographymag.com">unography mag</a>  - an online art magazine curating works from all corners of the internet.</p>
               <div class="socialLinks">
                 {` `}
                 <a href={`https://instagram.com/${social.instagram}`}>
