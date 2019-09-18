@@ -6,7 +6,10 @@
 }
 
 h1.rootHeader {
-    margin: .2em 0 .4em;
+    /* margin: .2em 0 .4em; */
+    margin-top: 0px;
+    /* margin-bottom: 0.5em; */
+    /* margin-left: 0.5em; */
     font-size: 4vw;
     line-height: .9em;
     font-weight: 900;
