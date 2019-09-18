@@ -1,13 +1,18 @@
+@import url('https://rsms.me/inter/inter.css');
+
 .layout {
     padding: 2em 13em;
     color: #292e31;
+    font-family: 'Inter', sans-serif;
 }
 
+h1, h2, h3, h4 {
+    font-family: 'Inter', sans-serif;   
+}
 
 h4 {
-    font-family: 'Montserrat', 'sans-serif';
     margin-top: 0;
-    opacity: 0.9;
+    opacity: 0.8;
     font-size: 1.2em;
 }
 
@@ -24,7 +29,6 @@ a:hover {
 @media only screen and (max-width: 950px) {
     .layout {
         padding-left: 0.5em;
-        /* padding-right: 0.5em; */
         margin-top: 1.5em;
         margin-left: 1.5em;
         margin-right: 1.5em;

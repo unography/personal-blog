@@ -1,12 +1,18 @@
+@import url('https://rsms.me/inter/inter.css');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 h2.indexBlogTitle {
     margin: 1em 0 0;
     font-size: 2.5em;
     line-height: 1.1em;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 .blogPostBlurb {
-    margin-bottom: 5em;
+    margin-bottom: 3em;
     max-width: 60em;
     min-width: 300px;
 }
@@ -23,7 +29,7 @@ hr {
 
 @media only screen and (max-width: 950px) {
     .blogPostBlurb {
-        margin-bottom: 3em;
+        margin-bottom: 2em;
     }
 
     hr {

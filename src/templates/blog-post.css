@@ -1,12 +1,13 @@
 
 .blogContent {
   margin: 1.2em 0;
-  padding-bottom: 1em;
+  /* padding-bottom: 1em; */
   font-size: 1.3em;
   font-weight: normal;
   max-width: 60em;
   min-width: 300px;
   line-height: 2em;
+  font-size: 20px;
 }
 
 
@@ -42,6 +43,7 @@ li {
 li.footer {
   font-weight: bold;
   font-size: 1.2em;
+  margin-left: 1em;
 }
 
 code.language-text {
@@ -58,7 +60,7 @@ code.language-text {
   .blogContent {
     margin: 0;
     padding: 0;
-    font-size: 1em;
+    font-size: 17px;
   }
 
   .gatsby-highlight {
