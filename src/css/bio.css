@@ -1,6 +1,7 @@
 .bio {
     /* display: flex; */
     margin-bottom: 2em;
+    margin-left: 2em;
     max-width: 800px;
     min-width: 300px;
 }
@@ -10,9 +11,7 @@ h1.rootHeader {
     margin-top: 0px;
     /* margin-bottom: 0.5em; */
     /* margin-left: 0.5em; */
-    font-size: 4vw;
     line-height: .9em;
-    font-weight: 700;
     
 }
 
@@ -21,11 +20,9 @@ p.self {
     margin-top: 0px;
     margin-bottom: 0.5em;
     margin-left: 0.5em;
-    font-size: 1.2em;
 }
 
 .socialLinks {
-    font-size: 1.1em;
     font-style: italic;
     margin-left: 0.5em;
 }
@@ -36,7 +33,6 @@ p.self {
         margin-top: 0px;
         margin-bottom: 0.5em;
         margin-left: 0.5em;
-        font-size: 1.2em;
         font-weight: bold;
     }
 }

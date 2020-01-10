@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `~ writings on ai, art, and making art with ai`,
-    author: `dhruv`,
+    title: `dhruv karan`,
+    author: `Dhruv Karan`,
     description: `writings on ai, art, and making art with ai`,
     siteUrl: `https://dhruvkaran.com`,
     social: {

@@ -2,25 +2,21 @@
 .blogContent {
   margin: 1.2em 0;
   /* padding-bottom: 1em; */
-  font-size: 1.3em;
   font-weight: normal;
   max-width: 60em;
   min-width: 300px;
   line-height: 2em;
-  font-size: 20px;
 }
 
 
 p.blogDate {
   margin-top: -1em;
   margin-bottom: 2em;
-  font-size: 0.8em;
   font-style: italic;
 }
 
 
 h1.blogTitle {
-  font-size: 3em;
   margin-top: 1.5em;
 }
 
@@ -42,12 +38,10 @@ li {
 
 li.footer {
   font-weight: bold;
-  font-size: 1.2em;
   margin-left: 1em;
 }
 
 code.language-text {
-  font-size: 1em;
   font-style: italic;
 }
 
@@ -60,7 +54,6 @@ code.language-text {
   .blogContent {
     margin: 0;
     padding: 0;
-    font-size: 17px;
   }
 
   .gatsby-highlight {
@@ -69,7 +62,6 @@ code.language-text {
 
   h1.blogTitle {
     margin-top: 0;
-    font-size: 2em;
 
   }
 

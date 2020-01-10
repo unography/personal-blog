@@ -21,10 +21,8 @@ function Bio() {
         return (
           <div class="bio">
             <p>
-              <p class="self">hi, i'm</p>
-              <h1 class="rootHeader">{author}</h1>
-              <p class="self">i'm a data scientist, photographer, and a creative coder. my interests include art, ai, and making art with ai.</p>
-              <p class="self">i also co-created <a href="https://unographymag.com">unography mag</a>  - an online art magazine curating works from all corners of the internet.</p>
+              <p class="self">Hi, I'm <b>{author}</b>. I'm a Data Scientist, Photographer, and a Creative Coder. My interests include art, ai, and making art with ai.</p>
+              <p class="self">I also co-created <a href="https://unographymag.com">unography mag</a>  - an online art magazine curating works from all corners of the internet.</p>
               <div class="socialLinks">
                 {` `}
                 <a href={`https://instagram.com/${social.instagram}`}>
