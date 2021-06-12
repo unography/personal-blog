@@ -47,7 +47,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Dhruv`,
+        name: `Dhruv Karan`,
         short_name: `Dhruv`,
         start_url: `/`,
         background_color: `#fff`,
