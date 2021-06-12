@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `dhruv karan`,
+    title: `Dhruv`,
     name: `Dhruv Karan`,
     siteUrl: `https://dhruvkaran.com`,
-    description: `writings on ai, art, and making art with a`,
+    description: `Writings on AI, Art, and making Art with AI`,
     hero: {
       heading: `Hi! I'm Dhruv`,
       subheading: `<br>I'm a Data Scientist, currently solving Machine Learning ∩ Design problems at <a href="http://hellosivi.com/">HelloSivi</a>.<br>
@@ -42,6 +42,12 @@ module.exports = {
           local: true,
           // contentful: true,
         },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-65985040-7`
       },
     },
     {
