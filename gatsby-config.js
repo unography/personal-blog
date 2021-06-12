@@ -47,8 +47,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Novela by Narative`,
-        short_name: `Novela`,
+        name: `Dhruv`,
+        short_name: `Dhruv`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
