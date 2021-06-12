@@ -1,3 +1,11 @@
+## dhruvkaran.com
+
+Personal blog built on top of GatsbyJS
+
+Base code by Novella — https://novela.narative.co
+
+## Original ReadMe
+
 <a href="https://novela.narative.co" target="_blank">
 <img src="https://raw.githubusercontent.com/narative/gatsby-theme-novela-example/master/assets/gatsby-theme-novela-hero.jpg" alt="gatsby-novela-theme hero image" />
 </a>

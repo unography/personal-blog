@@ -4,6 +4,7 @@ bio: |
 featured: true
 avatar: ./avatars/unography.jpeg
 social:
-  - url: https://github.com/unography
   - url: http://twitter.com/unography
   - url: https://www.instagram.com/unography
+  - url: https://github.com/unography
+  - url: https://www.linkedin.com/in/karandhruv
