@@ -1,33 +1,32 @@
 module.exports = {
   siteMetadata: {
-    title: `Novela by Narative`,
-    name: `Narative`,
-    siteUrl: `https://novela.narative.co`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    title: `dhruv karan`,
+    name: `Dhruv Karan`,
+    siteUrl: `https://dhruvkaran.com`,
+    description: `writings on ai, art, and making art with a`,
     hero: {
-      heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
-      maxWidth: 652,
+      heading: `Hi! I'm Dhruv`,
+      subheading: `<br>I'm a Data Scientist, currently solving Machine Learning ∩ Design problems at <a href="http://hellosivi.com/">HelloSivi</a>.<br>
+      When not building ML models at my day job, I build ML models to make some <a href="http://instagram.com/uno.labs">weird art</a>, <a href="http://instagram.com/unography">photograph</a> life around me, and sift through my <a href="http://notion.so">curiosity list</a>.<br><br>
+      I also create/curate art and aesthetics for <a href="https://www.unographymag.com/">The Unography Mag</a>, a place best described as ~ <i>your local internet art gallery</i>.`,
+      maxWidth: 800,
     },
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/narative`,
+        url: `https://twitter.com/unography`,
       },
       {
         name: `github`,
-        url: `https://github.com/narative`,
+        url: `https://github.com/unography`,
       },
       {
         name: `instagram`,
-        url: `https://instagram.com/narative.co`,
+        url: `https://instagram.com/unography`,
       },
       {
         name: `linkedin`,
-        url: `https://www.linkedin.com/company/narative/`,
-      },
-      {
-        name: `dribbble`,
-        url: `https://dribbble.com/narativestudio`,
+        url: `https://www.linkedin.com/in/karandhruv`,
       },
     ],
   },
