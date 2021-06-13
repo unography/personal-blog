@@ -7,7 +7,7 @@ module.exports = {
     hero: {
       heading: `Hi! I'm Dhruv`,
       subheading: `<br>I'm a Data Scientist, currently solving Machine Learning ∩ Design problems at <a href="http://hellosivi.com/">HelloSivi</a>.<br>
-      When not building ML models at my day job, I build ML models to make some <a href="http://instagram.com/uno.labs">weird art</a>, <a href="http://instagram.com/unography">photograph</a> life around me, and sift through my <a href="http://notion.so">curiosity list</a>.<br><br>
+      When not building ML models at my day job, I build ML models to make some <a href="http://instagram.com/uno.labs">weird art</a>, <a href="http://instagram.com/unography">photograph</a> life around me, and sift through my <a href="https://www.notion.so/curiosity-list-4c9e025e07734e37bdbd0f00bfbb98c9">curiosity list</a>.<br><br>
       I also create/curate art and aesthetics for <a href="https://www.unographymag.com/">The Unography Mag</a>, a place best described as ~ <i>your local internet art gallery</i>.`,
       maxWidth: 800,
     },
