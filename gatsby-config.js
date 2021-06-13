@@ -52,8 +52,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Dhruv Karan`,
-        short_name: `Dhruv`,
+        name: `Novela by Narative`,
+        short_name: `Novela`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#fff`,
