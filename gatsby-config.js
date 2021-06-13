@@ -37,10 +37,9 @@ module.exports = {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
-        authorsPage: true,
         sources: {
           local: true,
-          contentful: false,
+          contentful: false
         },
       },
     },
