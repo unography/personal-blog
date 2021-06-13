@@ -1,0 +1,10 @@
+name: Dhruv
+bio: |
+  Hey there
+featured: true
+avatar: ./avatars/unography.jpeg
+social:
+  - url: http://twitter.com/unography
+  - url: https://www.instagram.com/unography
+  - url: https://github.com/unography
+  - url: https://www.linkedin.com/in/karandhruv
