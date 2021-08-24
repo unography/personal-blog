@@ -13,7 +13,7 @@ export default function Logo() {
         cy="50"
         r="40"
         stroke="black"
-        stroke-width="5"
+        strokeWidth="5"
         fill-opacity="0"
         // style="fill-opacity: .0;stroke-opacity: .25"
       />
